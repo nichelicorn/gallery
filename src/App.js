@@ -9,6 +9,9 @@ class App extends React.Component {
   // add fetch request to API for color-based images (read through ElasticSearch documentation in the API docs to set up queries)
   
   // assign random artwork to each color based on the hue value of colors[0] of image
+
+  // For now, conditional rendering will be used to display either the Spectrum or the Gallery view
+
   render() {
     return (
       <main className="App">
@@ -17,6 +20,7 @@ class App extends React.Component {
         </header>
         {/* add Header component here */}
         <Spectrum ></Spectrum>
+        {/* when a user clicks on a ColorCard, render the Gallery view */}
         {/* add Footer component here */}
       </main>
     );
