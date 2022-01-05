@@ -1,4 +1,5 @@
 import React from 'react';
+import Spectrum from "./Spectrum";
 import './App.css';
 
 class App extends React.Component {
@@ -15,7 +16,7 @@ class App extends React.Component {
           <h1>Spectrum</h1>
         </header>
         {/* add Header component here */}
-        {/* add Spectrum component here */}
+        <Spectrum ></Spectrum>
         {/* add Footer component here */}
       </main>
     );

@@ -11,7 +11,7 @@ class Spectrum extends React.Component {
   render() {
     return (
       <section className="spectrum-wrap">
-        {colorArtwork}
+        {/* display mapped color artwork bubbles here */}
       </section>
     );
   }
