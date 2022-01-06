@@ -31,7 +31,7 @@ class App extends React.Component {
         <header className="App-header">
           <h1>Spectrum</h1>
         </header>
-        <Spectrum></Spectrum>
+        <Spectrum images={this.state.images}></Spectrum>
         {/* when a user clicks on a ColorCard, render the Gallery view */}
         {/* add Footer component here */}
       </main>
