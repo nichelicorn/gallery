@@ -7,7 +7,8 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      images: []
+      // images: []
+      images: testImages
     }
   }
   // App state should contain { spectrum: [ r o y g b i v ] }
@@ -17,6 +18,11 @@ class App extends React.Component {
   // assign random artwork to each color based on the hue value of colors[0] of image
 
   // For now, conditional rendering will be used to display either the Spectrum or the Gallery view
+
+  componentDidMount() {
+    console.log("test images in state? <>>>", this.state.images === testImages);
+    console.log("images in state <>>>", this.state.images);
+  }
 
   render() {
     return (
