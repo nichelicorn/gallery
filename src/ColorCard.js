@@ -2,7 +2,7 @@
 // Dynamically renders an artwork based on the dominant color; sets hue of rainbow based on main color in the colors property of the image
 
 import React from "react";
-import ".ColorCard.css";
+import "./ColorCard.css";
 
 function ColorCard(props) {
   console.log("ColorCard props <>>>", props);
