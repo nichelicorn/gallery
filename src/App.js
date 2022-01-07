@@ -1,14 +1,14 @@
 import React from 'react';
 import Spectrum from "./Spectrum";
 import './App.css';
-import testImages from './test-data';
+import testObjects from './test-data';
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
       // images: []
-      images: testImages
+      images: testObjects
     }
   }
   // App state should contain { spectrum: [ r o y g b i v ] }
@@ -19,8 +19,10 @@ class App extends React.Component {
 
   // For now, conditional rendering will be used to display either the Spectrum or the Gallery view
 
+  // A query on the Objects resource in the API will reveal all object data based on id
+
   componentDidMount() {
-    console.log("test images in state? <>>>", this.state.images === testImages);
+    console.log("test images in state? <>>>", this.state.images === testObjects);
     // console.log("images in state <>>>", this.state.images);
   }
 

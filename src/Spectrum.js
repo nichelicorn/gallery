@@ -19,7 +19,7 @@ function Spectrum( { images } ) {
   // render() {
     return (
       <section className="spectrum-wrap">
-        {mappedTestData}
+        {/* {mappedTestData} */}
         {/* display mapped color artwork bubbles here */}
       </section>
     );
