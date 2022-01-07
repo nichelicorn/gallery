@@ -5,12 +5,12 @@ import React from "react";
 import ColorCard from "./ColorCard";
 
 // should accept props from App, with color artwork assigned to an array
-function Spectrum( { images } ) {
+function Spectrum( { artworks } ) {
 // class Spectrum extends React.Component {
 
   // map through spectrum array to create color artwork bubbles
-  console.log("Spectrum props <>>>", images) 
-  const mappedTestData = images.map(image => {
+  console.log("Spectrum props <>>>", artworks) 
+  const mappedTestData = artworks.map(image => {
     return (
       <ColorCard ></ColorCard>
     )

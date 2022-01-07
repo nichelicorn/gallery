@@ -8,7 +8,7 @@ class App extends React.Component {
     super();
     this.state = {
       // images: []
-      images: testObjects
+      artworks: testObjects
     }
   }
   // App state should contain { spectrum: [ r o y g b i v ] }
@@ -22,7 +22,7 @@ class App extends React.Component {
   // A query on the Objects resource in the API will reveal all object data based on id
 
   componentDidMount() {
-    console.log("test images in state? <>>>", this.state.images === testObjects);
+    console.log("test images in state? <>>>", this.state.artworks === testObjects);
     // console.log("images in state <>>>", this.state.images);
   }
 
@@ -33,7 +33,7 @@ class App extends React.Component {
         <header className="App-header">
           <h1>Spectrum</h1>
         </header>
-        <Spectrum images={this.state.images}></Spectrum>
+        <Spectrum artworks={this.state.artworks}></Spectrum>
         {/* when a user clicks on a ColorCard, render the Gallery view */}
         {/* add Footer component here */}
       </main>
