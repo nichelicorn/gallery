@@ -4,17 +4,27 @@
 import React from "react";
 
 // should accept props from App, with color artwork assigned to an array
-class Spectrum extends React.Component {
+function Spectrum( { images } ) {
+// class Spectrum extends React.Component {
 
-  // map through spectrum array to create color artwork bubbles 
+  // map through spectrum array to create color artwork bubbles
+  console.log("Spectrum props <>>>", images) 
+  const mappedTestData = images.map(image => {
+    return (
+      <div>
+        <p>image.id</p>
+      </div>
+    )
+  })
 
-  render() {
+  // render() {
     return (
       <section className="spectrum-wrap">
+        {mappedTestData}
         {/* display mapped color artwork bubbles here */}
       </section>
     );
-  }
+  // }
 
 }
 

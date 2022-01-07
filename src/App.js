@@ -21,7 +21,7 @@ class App extends React.Component {
 
   componentDidMount() {
     console.log("test images in state? <>>>", this.state.images === testImages);
-    console.log("images in state <>>>", this.state.images);
+    // console.log("images in state <>>>", this.state.images);
   }
 
   render() {
