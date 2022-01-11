@@ -9,17 +9,24 @@ function Spectrum( { artworks } ) {
 // class Spectrum extends React.Component {
 
   // map through spectrum array to create color artwork bubbles
-  console.log("Spectrum props <>>>", artworks) 
-  const mappedTestData = artworks.map(image => {
+  // console.log("Spectrum props <>>>", artworks) 
+  const artworkCards = artworks.map(artwork => {
+    // console.log("artwork details <>>>", artwork);
+    // console.log("artwork people <>>>", artwork.people)
     return (
-      <ColorCard ></ColorCard>
+      <ColorCard 
+        title={artwork.title}
+        url={artwork.url}
+        colors={artwork.colors}
+        maker={artwork.people}
+      ></ColorCard>
     )
   })
 
   // render() {
     return (
       <section className="spectrum-wrap">
-        {/* {mappedTestData} */}
+        {/* {artworkCards} */}
         {/* display mapped color artwork bubbles here */}
       </section>
     );

@@ -24,6 +24,14 @@ class App extends React.Component {
   componentDidMount() {
     console.log("test images in state? <>>>", this.state.artworks === testObjects);
     // console.log("images in state <>>>", this.state.images);
+    this.setSpectrum();
+  }
+
+  setSpectrum = () => {
+    const filteredObjects = testObjects.filter(object => {
+      console.log("object properties <>>>", object);
+      console.log("object colors <>>>", object.colors);
+    })
   }
 
   render() {
