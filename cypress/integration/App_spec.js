@@ -8,6 +8,10 @@ describe.skip("The App component", () => {
   it("Should allow a user to visit the home URL", () => {
 
   })
+
+  it("Should render the App component", () => {
+    
+  })
   
   it("Should render a header with navigation elements", () => {
   
