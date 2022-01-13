@@ -7,6 +7,7 @@ describe.skip("The ColorCard component", () => {
   // - [ ] The artwork will have a color overlay that matches the spectrum color
   // - [ ] Hovering over an artwork will display a detail about the work (artist / maker *or* place if maker not available)
   // - [ ] If there is an error in fetching artwork, display the color only in the bubble, and (or? what is better UX?) display an error message
+  // - [ ] Clicking on an artwork will open a *new* window with a discrete url based on the artwork's id
 
   it("Should render a ColorCard component", () => {
 
@@ -33,7 +34,7 @@ describe.skip("The ColorCard component", () => {
   })
 
   it("Should show an error icon if the artwork is not available to display", () => {
-    
+
   })
 
 })
