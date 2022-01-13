@@ -2,7 +2,7 @@
 // See the API repo here : https://github.com/harvardartmuseums/api-docs
 
 const colorObjects = [
-    redObject =  {
+    {
         "copyright": "© Estate of Joseph Janney Steinmetz",
         "contextualtextcount": 0,
         "creditline": "Harvard Art Museums/Fogg Museum, Transfer from the Carpenter Center for the Visual Arts, American Professional Photographers Collection",
@@ -161,7 +161,7 @@ const colorObjects = [
             }
         ]
     },
-    orangeObject = {
+    {
         "copyright": "© Artists Rights Society (ARS), New York / VG Bild-Kunst, Bonn",
         "contextualtextcount": 0,
         "creditline": "Harvard Art Museums/Busch-Reisinger Museum, Gift of T. Lux Feininger",
@@ -327,7 +327,7 @@ const colorObjects = [
             }
         ]
     },
-    yellowObject = {
+    {
         "copyright": "© Artists Rights Society (ARS), New York / VG Bild-Kunst, Bonn",
         "contextualtextcount": 0,
         "creditline": "Harvard Art Museums/Busch-Reisinger Museum, Gift of T. Lux Feininger",
@@ -493,7 +493,7 @@ const colorObjects = [
             }
         ]
     },
-    greenObject = {
+    {
         "copyright": null,
         "contextualtextcount": 0,
         "creditline": "Harvard Art Museums/Arthur M. Sackler Museum, Transfer from the Peabody Museum of Archaeology and Ethnology, Harvard University",
@@ -585,7 +585,7 @@ const colorObjects = [
             }
         ]
     },
-    blueObject = {
+    {
         "copyright": null,
         "contextualtextcount": 0,
         "creditline": "Harvard Art Museums/Fogg Museum, Transfer from the Carpenter Center for the Visual Arts, American Professional Photographers Collection",
@@ -679,7 +679,7 @@ const colorObjects = [
             }
         ]
     },
-    indigoObject = {
+    {
         "copyright": null,
         "contextualtextcount": 0,
         "creditline": "Harvard Art Museums/Straus Center for Conservation and Technical Studies, Forbes Pigment Collection",
@@ -902,7 +902,7 @@ const colorObjects = [
             }
         ]
     },
-    violetObject =  {
+    {
         "copyright": null,
         "contextualtextcount": 0,
         "creditline": "Harvard Art Museums/Fogg Museum, Transfer from the Carpenter Center for the Visual Arts, Gift of Arthur Penn",
@@ -1068,7 +1068,7 @@ const colorObjects = [
             }
         ]
     },
-    testObject = {
+    {
         "copyright": null,
         "contextualtextcount": 0,
         "creditline": "Harvard Art Museums/Fogg Museum, Purchase through the generosity of Melvin R. Seiden",
